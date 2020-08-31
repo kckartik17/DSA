@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class count_no_of_digits_in_number {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
@@ -9,5 +11,6 @@ public class count_no_of_digits_in_number {
         }
 
         System.out.println(digits);
+        scn.close();
     }
 }
